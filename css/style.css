@@ -6,7 +6,6 @@ body{
 
 #logo{
     height: 50px;
-    vertical-align: middle;
     margin-left: 10px;
 }
 
@@ -15,28 +14,27 @@ header{
     margin:0;
 }
 
-hr{
-    color: lightgrey;
-}
-
 .add-task{
-    background-color: lightskyblue;
+    background-color: DodgerBlue;
     color: white;
-    border: 1px solid lightskyblue;
+    border: 1px solid DodgerBlue;
     border-radius: 5px;
 }
 
 .add-section{
     background-color: white;
-    color: grey;
-    border: 1px solid gray;
+    color: lightgray;
+    border: 1px solid lightgray;
     border-radius: 5px;
+
 }
+
 .editorial{
     background-color: lightskyblue;
     border: 0;
     border-radius: 30px;
     color: white;
+    padding: 6px;
 }
 
 .Q1{
@@ -44,6 +42,7 @@ hr{
     border: 0;
     border-radius: 20px;
     color: white;
+    padding: 6px;
 }
 
 .recruiting{
@@ -51,6 +50,7 @@ hr{
     border: 0;
     border-radius: 20px;
     color: white;
+    padding: 6px;
 }
 
 .mobile{
@@ -58,12 +58,14 @@ hr{
     border: 0;
     border-radius: 20px;
     color: white;
+    padding: 6px;
 }
 .website{
     background-color: mediumvioletred;
     border: 0;
     border-radius: 20px;
     color: white;
+    padding: 6px;
 }
 
 .sales{
@@ -71,10 +73,15 @@ hr{
     border: 0;
     border-radius: 20px;
     color: white;
+    padding: 6px;
 }
 
 h1{
     display: inline-block;
+}
+
+h2{
+    margin-bottom: 0;
 }
 
 .title{
@@ -123,4 +130,4 @@ main{
     font-size: 10px;
     text-align: center;
     line-height: 10px;
-}
+    }
