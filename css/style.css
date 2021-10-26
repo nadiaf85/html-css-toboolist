@@ -1,0 +1,46 @@
+body{
+    font-family: Arial;
+}
+
+#logo{
+    height: 50px;
+    vertical-align: middle;
+}
+
+.container{
+    width: 350px;
+    height: 200px;
+}
+
+.add-task{
+    background-color: lightskyblue;
+    border: 0;
+    border-radius: 20px;
+}
+
+.add-section{
+    background-color: white;
+    color: grey;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.editorial{
+    background-color: lightskyblue;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.Q1{
+    background-color: mediumpurple;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.recruiting{
+    background-color: seagreen;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
