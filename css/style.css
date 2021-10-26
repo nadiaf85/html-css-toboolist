@@ -1,5 +1,6 @@
 body{
     font-family: Arial;
+    background-color: lightgrey;
 }
 
 #logo{
@@ -7,10 +8,10 @@ body{
     vertical-align: middle;
 }
 
-.container{
-    width: 350px;
-    height: 200px;
+header{
+    background-color: white;
 }
+
 
 .add-task{
     background-color: lightskyblue;
@@ -64,4 +65,24 @@ body{
     border: 0;
     border-radius: 20px;
     color: white;
+}
+
+h1{
+    display: inline-block;
+}
+
+.title{
+    display: inline-block;
+}
+
+main{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#list{
+    line-height: 40px;
 }
