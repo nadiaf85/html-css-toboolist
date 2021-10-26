@@ -14,8 +14,9 @@ body{
 
 .add-task{
     background-color: lightskyblue;
-    border: 0;
-    border-radius: 20px;
+    color: white;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
 }
 
 .add-section{
@@ -40,6 +41,26 @@ body{
 
 .recruiting{
     background-color: seagreen;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.mobile{
+    background-color: orange;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+.website{
+    background-color: mediumvioletred;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.sales{
+    background-color: yellowgreen;
     border: 0;
     border-radius: 20px;
     color: white;
