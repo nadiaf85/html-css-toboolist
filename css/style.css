@@ -6,7 +6,8 @@ body{
 
 #logo{
     height: 50px;
-    margin-left: 10px;
+    margin-left: 15px;
+    vertical-align: middle;
 }
 
 header{
@@ -14,11 +15,17 @@ header{
     margin:0;
 }
 
+.button{
+    border-bottom: 1px solid lightgray;
+}
+
 .add-task{
     background-color: DodgerBlue;
     color: white;
     border: 1px solid DodgerBlue;
     border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
 }
 
 .add-section{
@@ -26,7 +33,8 @@ header{
     color: lightgray;
     border: 1px solid lightgray;
     border-radius: 5px;
-
+    padding: 5px 10px;
+    adding: 5px 10px;
 }
 
 .editorial{
@@ -35,6 +43,7 @@ header{
     border-radius: 30px;
     color: white;
     padding: 6px;
+    font-size: 10px;
 }
 
 .Q1{
@@ -43,6 +52,7 @@ header{
     border-radius: 20px;
     color: white;
     padding: 6px;
+    font-size: 10px;
 }
 
 .recruiting{
@@ -51,6 +61,7 @@ header{
     border-radius: 20px;
     color: white;
     padding: 6px;
+    font-size: 10px;
 }
 
 .mobile{
@@ -59,6 +70,7 @@ header{
     border-radius: 20px;
     color: white;
     padding: 6px;
+    font-size: 10px;
 }
 .website{
     background-color: mediumvioletred;
@@ -66,6 +78,7 @@ header{
     border-radius: 20px;
     color: white;
     padding: 6px;
+    font-size: 10px;
 }
 
 .sales{
@@ -74,10 +87,12 @@ header{
     border-radius: 20px;
     color: white;
     padding: 6px;
+    font-size: 10px;
 }
 
 h1{
     display: inline-block;
+    vertical-align: middle;
 }
 
 h2{
